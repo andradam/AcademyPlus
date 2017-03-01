@@ -1,0 +1,13 @@
+How to compile projects:
+1. libft-> make
+2. fillit-> make && ./fillit tetriminos/file
+3. get_next_line-> make && ./test_gnl or modify the way you want to make the reading in main.c
+
+The Graphic projects need the libmlx library:
+1. tar -xzf minilibx_macos_sierra
+2. cd minilibx_macos -> make
+3. cp mlx.h /usr/X11/include
+4. cp libmlx.a /usr/X11/lib
+
+4. Fdf ->make && ./fdf test_maps/file
+5. Fractol -> make && ./fractol 1
